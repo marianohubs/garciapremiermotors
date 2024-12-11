@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garcia Premier Motors</title>
+    <link rel="stylesheet" href="prueba.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="shortcut icon" href="Car-Logo-PNG-Photos.png" type="image/x-icon" />
+
+  </head>
+  <body>
+    <a
+      id="myBtn"
+      style="right: 30px; background-color: #41b40b"
+      href="https://api.whatsapp.com/send/?phone=528999841439&text&type=phone_number&app_absent=0"
+      ><img src="media/social/icons8-whatsapp-24.png" alt=""
+    /></a>
+    <div class="carrito">
+      <button
+        onclick="openNav()"
+        id="myBtn"
+        style="left: 30px; background-color: rgb(255, 220, 18)"
+      >
+        <img
+          src="media/icons8-shopping-cart-black.png"
+          alt=""
+          style="height: 1.5rem; width: 1.5rem"
+        />
+      </button>
+
+      <div id="mySidenav" class="carritoSidenav">
+        
+        <div class="carrito-top">
+          <div class="carrito-title">
+            <p>Carrito de compras</p>
+            <img src="media/icons8-shopping-cart-black.png" alt="">
+          </div>
+          <div class="close-carrito">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fullScreenGradient"></div>
+    
+    <header id="navbar">
+      <a href="">
+        <div class="MN-cont">
+          <img id="MN-nav-logo" src="Car-Logo-PNG-Photos.png" alt="" />
+          <div class="MN-text-cont">
+            <h1 id="MN-Text">Garcia Premier Motors</h1>
+            <h3 id="MN-Complement-text">venta de carros</h3>
+          </div>
+        </div>
+      </a>
+
+      <nav>
+        <a id="nav-link" href="#Conocenos">Carros</a>
+        <a id="nav-link" href="#Acrilicos">Camionetas</a>
+        <a id="nav-link" href="#Efectos">Mas veloces</a>
+        <a id="nav-link" href="#Pedicure">Mas comprados</a>
+        <a id="nav-link" href="#Herramientas">Herramientas</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="slideshow-galeria">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="cont-slide-text">
+              <div class="cont-slide-textContainer">
+                <h1>Garcia Premier Motors</h1>
+                <p>Los Mejores por exelencia</p>
+              </div>
+            </div>
+            <div class="black-color"></div>
+            <img src="DALL·E 2024-12-09 03.12.55 - A professional car dealership advertisement featuring workers in a modern workshop. The workers are cleanly dressed in branded uniforms and looking di.webp" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="cont-slide-text">
+              <div class="cont-slide-textContainer">
+                <h1>Electrónics</h1>
+                <p>
+                  Lamparas UV, Drilles y Aspiradores de polvo de la mejor
+                  calidad.
+                </p>
+              </div>
+            </div>
+            <div class="black-color"></div>
+            <img src="media/photos/electronicos.jpg" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="cont-slide-text">
+              <div class="cont-slide-textContainer">
+                <h1>Geles Semipermamentes</h1>
+                <p>
+                  Mussa, Kalanzy, Miss Cherry. ¡Tus marcas favoritas estan aquí!
+                </p>
+              </div>
+            </div>
+            <div class="black-color"></div>
+            <img src="media/photos/gelesSemipermanentes.jpg" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)" style="align-items: center">
+            <img
+              src="media/flecha.svg"
+              alt=""
+              style="transform: rotate(90deg)"
+            />
+          </a>
+          <a class="next" onclick="plusSlides(1)" style="align-items: center">
+            <img
+              src="media/flecha.svg"
+              alt=""
+              style="transform: rotate(-90deg)"
+            />
+          </a>
+
+          <div class="dots-cont" style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+
+        <br />
+      </div>
+
+      <section class="categories">
+        <div class="categories-margin-container">
+          <div class="catego-title">
+            <h1>CATEGORÍAS</h1>
+          </div>
+
+          <div class="categories-table">
+            <div class="categorie-item">
+              <img src="toyota.jpeg" alt="geles" />
+              <p>Sedanes</p>
+            </div>
+            <div class="categorie-item">
+              <img src="honda.jpeg" alt="tips" />
+              <p>SUVs y Crossovers</p>
+            </div>
+            <div class="categorie-item">
+              <img src="pick up.jpeg" alt="decoraciones" />
+              <p>Pick ups</p>
+            </div>
+            <div class="categorie-item">
+              <img src="porsche.jpeg" alt="herramientas" />
+              <p>Deportivos</p>
+            </div>
+            <div class="categorie-item">
+              <img src="tesla.jpeg" alt="acrilico" />
+              <p>Híbridos y Eléctricos</p>
+            </div>
+            <div class="categorie-item">
+              <img src="mustang.jpeg" alt="efectos" />
+              <p>Clásicos y Antiguos</p>
+            </div>
+            <div class="categorie-item">
+              <img src="bmw.jpeg" alt="efectos" />
+              <p>Lujo</p>
+            </div>
+            <div class="categorie-item">
+              <img src="jeep.jpeg" alt="efectos" />
+              <p>Todoterreno</p>
+            </div>
+            <div class="categorie-item">
+              <img src="mini.jpeg" alt="efectos" />
+              <p>Compactos</p>
+            </div>
+            <div class="categorie-item">
+              <img src="urus.jpeg" alt="efectos" />
+              <p>Deportivos Utilitarios</p>
+            </div>
+            <div class="categorie-item">
+              <img src="furgoneta.jpeg" alt="efectos" />
+              <p>Furgonetas y Vehículos Comerciales</p>
+            </div>
+            <div class="categorie-item">
+              <img src="mazda.jpeg" alt="efectos" />
+              <p>covertibles</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="novedades">
+        <h1>NOVEDADES 🔥</h1>
+        <p>¡NOS ACABA DE LLEGAR!</p>
+        <div class="product-container">
+          <div class="product-item">
+            <p id="lb-nuevo">mclaren p1💸👇</p>
+            <img src="mc.jpeg" alt="">
+            <p></p>
+            <div class="price-n-desc">
+              <p id="price-desc">$10.507.800</p>
+              <p id="product-price">$7,435.700</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <p id="lb-nuevo">Pagani Huayra</p>
+            <img src="pagani.jpeg" alt="">
+            <p></p>
+            <div class="price-n-desc">
+              <p id="product-price">$200.000.000</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <p id="lb-nuevo">motor v10 🤑🤑🤑🤑</p>
+            <img src="v10.jpg" alt="">
+            <p>motor v10 con mas de 1000 hp🐎🔥🔥🔥</p>
+            <div class="price-n-desc">
+              <p id="price-desc">$600.000</p>
+              <p id="product-price">$300.000</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <p id="lb-nuevo">-26.17%👇😲</p>
+            <img src="ko3-768x480.jpg" alt="">
+            <p>koenigsegg</p>
+            <div class="price-n-desc">
+              <p id="price-desc">$149.000.00</p>
+              <p id="product-price">$110.000.00</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <p id="lb-nuevo">NUEVO 🔥🔥🔥🔥🔥</p>
+            <img src="CHIRON.jpeg" alt="">
+            <p>Bugatti chiron </p>
+            <div class="price-n-desc">
+              <p id="product-price">$200.000.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mapa">
+        <div class="map-container">
+          <h1
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-bottom: 1rem;
+            "
+          >
+            ¡Visítanos!
+          </h1>
+          <div
+            id="map"
+            style="width: 100%; height: 400px; border-radius: 10px"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Script de Google Maps -->
+      <script>
+        function initMap() {
+          const location = { lat: 26.0271902, lng: -98.230974 }; // Coordenadas de la ubicación
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: location,
+          });
+          const marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            title: "Garcia Premier Motors",
+          });
+
+          // Evento de clic en el marcador
+          marker.addListener("click", () => {
+            window.open(
+              `https://www.google.com/maps/search/?api=1&query=${location.lat},${location.lng}`,
+              "_blank"
+            );
+          });
+        }
+      </script>
+
+      <!-- Cargar la API de Google Maps -->
+      <script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyHvqP3cGWtIrDVUAJkVcxlcjRYC5XnB8&callback=initMap"
+      ></script>
+
+      <footer>
+        <div class="footer-margin-container">
+          <div class="grid5">
+            <div class="logo-and-social">
+              <div class="MN-cont">
+                <img src="Car-Logo-PNG-Photos.png" alt="" />
+                <div class="MN-text-cont">
+                  <h1 id="MN-Text">Garcia Premier Motors</h1>
+                  <h3 id="MN-Complement-text">Carros exoticos</h3>
+                </div>
+              </div>
+              <div class="meet-us">
+                <h3>CONÓCENOS</h3>
+                <div class="social-container">
+                  <div class="social-cont" id="facebook-cont">
+                    <a href="https://www.facebook.com/profile.php?id=100023272816518"
+                      ><img src="media/social/icons8-facebook-f-50.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="social-cont" id="instagram-cont">
+                    <a href="https://www.facebook.com/profile.php?id=100023272816518"
+                      ><img
+                        src="media/social/icons8-instagram-logo-24.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="social-cont" id="whatsapp-cont">
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=528999736296&text&type=phone_number&app_absent=0"
+                      ><img src="media/social/icons8-whatsapp-24.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="social-cont" id="tiktok-cont">
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=528999736296&text&type=phone_number&app_absent=0"
+                      ><img
+                        src="media/social/TikTok-icon-white-symbol-glyph-png-263x300.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-categories">
+              <h1>CATEGORIAS</h1>
+              <a href="">Sedanes</a>
+              <a href="">SUVs y Crossovers</a>
+              <a href="">Pick ups</a>
+              <a href="">Deportivos</a>
+              <a href="">Híbridos y Eléctricos</a>
+              <a href="">Clásicos y Antiguos</a>
+              <a href="">lujo</a>
+              <a href="">Todoterreno</a>
+              <a href="">Compactos</a>
+              <a href="">Deportivos Utilitarios</a>
+              <a href="">Furgonetas y Vehículos Comerciales</a>
+            </div>
+            <div class="products">
+              <h1>PRODUCTOS</h1>
+              <a href="">Motor v10</a>
+              <a href="">motor v8</a>
+              <a href="">Motor v6</a>
+              <a href="">Motor v8</a>
+            </div>
+            <div class="contacto">
+              <h1>CONTACTO</h1>
+              <p><b>Correo:</b></p>
+              <a href="garciapremiermotors@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i> Email: garciapremiermotors@gmail.com
+            </a>
+
+              >
+              <p><b>Teléfono:</b> 899 975 0825</p>
+              <p>
+                <b>Dirección:</b> Calle Rodríguez 123, Reynosa, Tamps.,
+                México 88780
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="prueba.js"></script>
+  </body>
+</html>
+<!--JvliDev-->
